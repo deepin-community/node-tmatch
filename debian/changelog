@@ -1,0 +1,67 @@
+node-tmatch (5.0.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 02 Nov 2021 18:15:14 +0100
+
+node-tmatch (5.0.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-tap.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Aug 2021 00:34:33 +0100
+
+node-tmatch (5.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.6.0
+
+ -- Yadd <yadd@debian.org>  Fri, 20 Aug 2021 21:22:17 +0200
+
+node-tmatch (5.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto test & install
+  * New upstream version 5.0.0
+  * Add "Multi-Arch: foreign"
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 28 May 2020 17:04:37 +0200
+
+node-tmatch (4.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix CI
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 26 Jun 2018 17:30:42 +0200
+
+node-tmatch (4.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Move to salsa
+  * Policy and compat bump
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 25 Jun 2018 21:57:07 +0200
+
+node-tmatch (3.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #843990)
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 11 Nov 2016 16:50:39 +0100
